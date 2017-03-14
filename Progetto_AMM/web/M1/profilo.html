@@ -6,11 +6,31 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>NerdBook - Profilo</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Andrea Marotto">
     </head>
     <body>
-        <div>TODO write content</div>
-    </body>
+        <div class="signup-form">
+            <h3>Registrazione</h3>
+            <form method="post" action="#">
+                <label for="nome">Nome</label>
+                <input name="nome" id="nome" type="text"/><br/><br/>
+                <label for="cognome">Cognome</label>
+                <input name="cognome" id="cognome" type="text"/><br/><br/>
+                <label for="immagineProfilo">Immagine del profilo (URL)</label> <!--URL da cui caricare l'immagine del profilo-->
+                <input name="immagineProfilo" id="immagineProfilo" type="url"/><br/><br/>
+                <label for="presentazione">Frase di presentazione</label>
+                <textarea rows="2" cols="80”
+                          name="presentazione" id="presentazione">
+                </textarea><br/><br/>
+                <label for="password">Password</label>
+                <input name="password" id="password" type="password"/><br/><br/>
+                <label for="confermaPassword">Conferma Password</label>
+                <input name="confermaPassword" id="confermaPassword" type="password"/><br/><br/>
+            <input type="submit" value="Accedi"/>
+        </form>
+    </div>
+</body>
 </html>
