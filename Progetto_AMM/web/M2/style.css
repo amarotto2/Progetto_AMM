@@ -8,15 +8,34 @@ and open the template in the editor.
     Author     : andre
 */
 
-header{
+header {
     background-color: #00b300;
     color: white;
     text-shadow: 2px 2px #000000;
     font-size: 40px;
     font-weight: bold;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    padding-left: 15px;
 }
 
 body {
     background-color: #e6ffe6;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 20px;
 }
