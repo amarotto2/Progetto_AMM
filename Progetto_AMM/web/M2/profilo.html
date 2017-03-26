@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>NerdBook - Profilo</title>
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Andrea Marotto">
+    </head>
+    <body>
+        <header>
+            <div id="title">
+                Nerdbook - Profilo
+            </div>
+        </header>
+        <div class="signup-form">
+            <h3>Registrazione</h3>
+            <form method="post" action="#">
+                <label for="nome">Nome</label>
+                <input name="nome" id="nome" type="text"/><br/>
+                <label for="cognome">Cognome</label>
+                <input name="cognome" id="cognome" type="text"/><br/>
+                <label for="urlImmagineProfilo">Immagine del profilo (URL)</label> <!--URL da cui caricare l'immagine del profilo-->
+                <input name="urlImmagineProfilo" id="urlImmagineProfilo" type="url"/><br/>
+                <label for="presentazione">Frase di presentazione</label>
+                <textarea rows="2" cols="80" name="presentazione" id="presentazione"></textarea><br/>
+                <label for="data">Data di nascita</label>
+                <input name="data" id="data" type="date"/><br/>
+                <label for="password">Password</label>
+                <input name="password" id="password" type="password"/><br/>
+                <label for="confermaPassword">Conferma Password</label>
+                <input name="confermaPassword" id="confermaPassword" type="password"/><br/>
+                <input type="submit" value="Accedi"/>
+            </form>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="descrizione.html">Descrizione</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </body>
+</html>
