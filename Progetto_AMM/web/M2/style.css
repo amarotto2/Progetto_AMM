@@ -22,6 +22,9 @@ header {
     height: 50px;
     z-index: 1000;
 }
+header p{
+    display: inline;
+}
 
 .links {
     margin-top: 60px;
@@ -70,6 +73,14 @@ a:hover{
 .login-form label:after{
     content: '\A';
     white-space: pre;
+}
+
+.login-form{
+    text-align: center;
+}
+
+#tasto_accedi{
+    margin-top: 15px;
 }
 
 nav {
@@ -160,7 +171,7 @@ nav a{
 #logout_link{
     position: fixed;
     right: 15px;
-    top: 25px;
+    top: 10px;
     font-size: 15px;
     font-weight: bold;
     text-decoration: underline;
