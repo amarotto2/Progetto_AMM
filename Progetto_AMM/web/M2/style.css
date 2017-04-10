@@ -217,7 +217,7 @@ nav a{
     text-align: center;
     font-size: 20px;
     font-style: italic;
-   /* font-weight: bold;*/
+    /* font-weight: bold;*/
     border-color: #ff8000;
     border-style: solid;
     background-color: #e6ffe6;
@@ -237,5 +237,47 @@ nav a{
     background-color: #e6ffe6;
     margin-top: 60px;
     margin-bottom: 10px;
-   /* height: 70px;*/
+    /* height: 70px;*/
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1024px){
+    .post{
+
+    }
+}
+
+@media only screen and (max-width: 480px){
+    #sidebar_bacheca{
+        display: none;
+    }
+
+    #content_bacheca{
+        position: relative;
+        width: 100%;
+    }
+
+    .collegamenti_pagine{
+        font-size: 10px;
+    }
+    
+    #titolo_da_nascondere{
+        display: none;
+    }
+    
+    #titolo_da_ridimensionare{
+        font-size: 20px;
+    }
+    
+    #sidebar_profilo{
+        display: none;
+    }
+
+    #content_profilo{
+        position: relative;
+        width: 100%;
+    }
+    
+    .signup-form{
+        background-image: none;
+    }
 }
