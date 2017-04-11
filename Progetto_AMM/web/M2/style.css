@@ -241,8 +241,36 @@ nav a{
 }
 
 @media only screen and (min-width: 480px) and (max-width: 1024px){
-    .post{
-
+    #content_bacheca{
+        position: absolute;
+        right: 0px;
+        width: 60%;
+    }
+    
+    #sidebar_bacheca{
+        width: 30%;
+    }
+    
+    #content_profilo{
+        position: absolute;
+        right: 0px;
+        width: 60%;
+    }
+    
+    #sidebar_profilo{
+        width: 30%;
+    }
+    
+    .signup-form{
+        background-image: none;
+    }
+    
+    .collegamenti_pagine{
+        font-size: 10px;
+    }
+    
+    header{
+        font-size: 27px;
     }
 }
 
@@ -259,15 +287,15 @@ nav a{
     .collegamenti_pagine{
         font-size: 10px;
     }
-    
+
     #titolo_da_nascondere{
         display: none;
     }
-    
+
     #titolo_da_ridimensionare{
         font-size: 20px;
     }
-    
+
     #sidebar_profilo{
         display: none;
     }
@@ -276,7 +304,7 @@ nav a{
         position: relative;
         width: 100%;
     }
-    
+
     .signup-form{
         background-image: none;
     }
